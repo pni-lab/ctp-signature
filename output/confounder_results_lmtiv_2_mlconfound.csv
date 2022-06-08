@@ -1,0 +1,38 @@
+,0,1,2,3,4,5,6,7
+0,observed QST + BP MRI systole,0.11002676042176404,predicted QST + BP MRI systole,0.07217040095711753,observed + predicted QST,0.3246976378400525,p-value ,0.523
+1,observed QST + BP MRI diastole,0.013726751012484759,predicted QST + BP MRI diastole,0.13278887053609825,observed + predicted QST,0.3246976378400525,p-value ,0.203
+2,observed QST + BP QST systole,0.09748376029641358,predicted QST + BP QST systole,0.028253692160839537,observed + predicted QST,0.3843699336388007,p-value ,0.816
+3,observed QST + BP QST diastole,0.046205515400600285,predicted QST + BP QST diastole,0.039615913916398224,observed + predicted QST,0.3843699336388007,p-value ,0.718
+4,observed QST + MRI QST diff.,0.05518670487796851,predicted QST + MRI QST diff.,0.07388132977994438,observed + predicted QST,0.33540851168467445,p-value ,0.477
+5,observed QST + sex,0.09159463178731231,predicted QST + sex,0.01578234838039656,observed + predicted QST,0.35703865872773605,p-value ,0.88
+6,observed QST + day of menses,0.09042768344276628,predicted QST + day of menses,0.05084090453360241,observed + predicted QST,0.42717249666455537,p-value ,0.715
+7,observed QST + age,0.03154423542155832,predicted QST + age,0.07027020268618295,observed + predicted QST,0.35703865872773605,p-value ,0.413
+8,observed QST + BMI,0.009829141664079106,predicted QST + BMI,0.03687355055883435,observed + predicted QST,0.35703865872773605,p-value ,0.711
+9,observed QST + education,0.054825730996306506,predicted QST + education,0.12965280959415468,observed + predicted QST,0.357505589748251,p-value ,0.244
+10,observed QST + alcohol per unit,0.1539745455570903,predicted QST + alcohol per unit,0.21225854955022871,observed + predicted QST,0.41628541351017434,p-value ,0.244
+11,observed QST + alcohol per week,0.04957220940762193,predicted QST + alcohol per week,0.05205663501416777,observed + predicted QST,0.3587214375918369,p-value ,0.622
+12,observed QST + PCS: catastrophizing,0.09138249287661204,predicted QST + PCS: catastrophizing,0.03490458985613285,observed + predicted QST,0.3290113103618604,p-value ,0.719
+13,observed QST + PCS: rumination,0.13972294498586946,predicted QST + PCS: rumination,0.014527895108258766,observed + predicted QST,0.41628541351017434,p-value ,0.933
+14,observed QST + T50,0.4528201113697142,predicted QST + T50,0.12361643187472385,observed + predicted QST,0.41628541351017434,p-value ,0.707
+15,observed QST + GLX mean,0.35858462222558785,predicted QST + GLX mean,0.3685669451328803,observed + predicted QST,0.41628541351017434,p-value ,0.095
+16,observed QST + GLX overall,0.3967512465945811,predicted QST + GLX overall,0.39219961583349333,observed + predicted QST,0.41632670178105585,p-value ,0.087
+17,observed QST + GABA mean,0.24010022172227494,predicted QST + GABA mean,0.11359625939841062,observed + predicted QST,0.41628541351017434,p-value ,0.559
+18,observed QST + GABA overall,0.21264974609521847,predicted QST + GABA overall,0.08385831733459496,observed + predicted QST,0.41214023327978816,p-value ,0.656
+19,observed QST + TCR GLX mean,0.3704722352654914,predicted QST + TCR GLX mean,0.09168216421785842,observed + predicted QST,0.41628541351017434,p-value ,0.725
+20,observed QST + TCR GABA mean,0.11723566893634298,predicted QST + TCR GABA mean,0.1781476722347962,observed + predicted QST,0.41628541351017434,p-value ,0.333
+21,observed QST + anxiety state,0.010231794717807588,predicted QST + anxiety state,0.02944609883796404,observed + predicted QST,0.3311394271083228,p-value ,0.751
+22,observed QST + anxiety trait,0.10577920867454127,predicted QST + anxiety trait,0.023797522761561878,observed + predicted QST,0.3270573092226706,p-value ,0.802
+23,observed QST + PSQ,0.1558153326238624,predicted QST + PSQ,0.030361027310787696,observed + predicted QST,0.330460883499434,p-value ,0.76
+24,observed QST + ADS-K,0.10978141623274885,predicted QST + ADS-K,0.011532647331371666,observed + predicted QST,0.3458128271398304,p-value ,0.917
+25,observed QST + PSQ20,0.16923656219480102,predicted QST + PSQ20,0.05736332349868665,observed + predicted QST,0.2921380690718129,p-value ,0.636
+26,observed QST + PSQI,0.037509887308474536,predicted QST + PSQI,0.09622981768608828,observed + predicted QST,0.29446042464224725,p-value ,0.421
+27,observed QST + CDT,0.0007538313575664225,predicted QST + CDT,0.05523751299093703,observed + predicted QST,0.35703865872773605,p-value ,0.498
+28,observed QST + WDT,0.0006904249342262418,predicted QST + WDT,0.0650514537437368,observed + predicted QST,0.35703865872773605,p-value ,0.441
+29,observed QST + MDT,0.03860322742408356,predicted QST + MDT,0.10048310771683798,observed + predicted QST,0.33540851168467445,p-value ,0.318
+30,observed QST + QST,1.0,predicted QST + QST,0.35703865872773605,observed + predicted QST,0.35703865872773605,p-value ,1.0
+31,observed QST + CPT,0.7864919898279931,predicted QST + CPT,0.21729688346101445,observed + predicted QST,0.35703865872773605,p-value ,0.904
+32,observed QST + HPT,0.7792247323528945,predicted QST + HPT,0.24682925418578314,observed + predicted QST,0.35703865872773605,p-value ,0.597
+33,observed QST + MPT,0.5411039713075506,predicted QST + MPT,0.2754722580632336,observed + predicted QST,0.35703865872773605,p-value ,0.182
+34,observed QST + batch,0.006941551000463007,predicted QST + batch,0.043121518469523015,observed + predicted QST,0.35703865872773605,p-value ,0.638
+35,observed QST + eTIV,0.02276485419608591,predicted QST + eTIV,0.01702200563390195,observed + predicted QST,0.35703865872773605,p-value ,0.842
+36,observed QST + mThickness,0.13292992671949216,predicted QST + mThickness,0.15998649513982757,observed + predicted QST,0.35703865872773605,p-value ,0.108
