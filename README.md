@@ -7,5 +7,7 @@ This repository - in a multi-center cohort (n = 131) - aims at predicting indivi
 
 Once the repository is downloaded with the essential programming packages, the obtained results can be re-produced using the jupyter notebooks. 
 
-![ml-pipe](https://user-images.githubusercontent.com/82961493/172666154-89fc285f-33b2-40a1-a3be-359d8d63ff56.jpg)
-The ML framework & the potential confounder effects the model checks for, are presented with the figure.
+
+![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
+
+
