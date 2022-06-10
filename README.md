@@ -7,8 +7,9 @@ This repository - in a multi-center cohort (n = 131) - aims at predicting indivi
 - the methodology and the results have also been selected for a poster at the joint **ISMRM-ESMRMB
 & ISMRT-2022** - London - UK and at the **OHBM-2022** - Glasgow - UK (please see below). 
 
-Once the repository is downloaded with the essential programming packages, the obtained results can be re-produced using the jupyter notebooks. 
-
+Once the repository is downloaded with the essential programming packages, the obtained results can be re-produced using the jupyter notebooks. To redo the analysis by your own, which includes calculating the cortical thickness measures, please follow the hints below:
+- use _datalad_ to acquire the multi-center datasets(T1w - MRI images). the urls for the three datasets are given below:
+RPN-signature_Study2: https://github.com/OpenNeuroDatasets/ds002609.git
 
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
