@@ -12,5 +12,9 @@ Once the repository is downloaded with the essential programming packages, the o
 
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
-![ohbm 2022(1)](https://user-images.githubusercontent.com/82961493/173019056-cef2d085-db7f-4beb-9a8d-692d7dd65d90.jpg)
+|:--:| 
+| ***ML-pipeline*** |
 
+![ohbm 2022(1)](https://user-images.githubusercontent.com/82961493/173019056-cef2d085-db7f-4beb-9a8d-692d7dd65d90.jpg)
+|:--:| 
+| ***OHBM-2022 poster presentation*** |
