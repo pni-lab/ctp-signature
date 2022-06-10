@@ -28,6 +28,6 @@ RPN-signature_Study2:
 ![ohbm 2022(1)](https://user-images.githubusercontent.com/82961493/173019056-cef2d085-db7f-4beb-9a8d-692d7dd65d90.jpg)
 |:--:| 
 | ***OHBM-2022 poster presentation*** |
-    datalad install https://github.com/OpenNeuroDatasets/ds002608.git
+   
 
 
