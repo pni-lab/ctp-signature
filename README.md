@@ -11,6 +11,7 @@ Once the repository is downloaded with the essential programming packages, the o
 - use _datalad_ to acquire the multi-center datasets(T1w - MRI images) using the commands below:
 - RPN-signature_Study1: datalad install https://github.com/OpenNeuroDatasets/ds002608.git
 - RPN-signature_Study2: datalad install https://github.com/OpenNeuroDatasets/ds002609.git
+- Check out DataLad (https://handbook.datalad.org/en/latest/usecases/openneuro.html) for more on how to use this download method.
 
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
