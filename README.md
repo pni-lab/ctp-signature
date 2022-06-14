@@ -20,6 +20,8 @@ RPN-signature_Study2:
 
     datalad install https://github.com/OpenNeuroDatasets/ds002609.git
 
+RPN-signature-Study3:
+    Data is available upon reasonable request. 
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
 |:--:| 
