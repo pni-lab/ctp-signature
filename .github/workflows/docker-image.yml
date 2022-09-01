@@ -18,6 +18,12 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag pnilab/ctp-signature:latest
       
+    - name: Get tag
+        id: tag
+        uses: oprypin/find-latest-tag@v1
+        with:
+          repository: pni-lab/ctp-signature  # The repository to scan.
+      
     - name: Login to DockerHub
       uses: docker/login-action@v1
       with:
@@ -26,4 +32,6 @@ jobs:
           
     - name: Docker Push
       run: |
+          VER=`echo ${{steps.tag.outputs.tag}} | awk -F'[.-]' '{print $1 "." $2}'` #major.minor
           docker push pnilab/ctp-signature:latest
+          docker push pnilab/pumi-slim:$VER
