@@ -1,11 +1,9 @@
-FROM bids/freesurfer:latest
+FROM freesurfer/freesurfer:latest
 
-COPY ["ctp-signature.py", "/ctp-signature.py"]
-COPY ["run.sh", "/run.sh"]
+COPY ["run.py", "/run.py"]
 
-RUN chmod +x /ctp-signature.py
-RUN chmod +x /run.sh
+RUN chmod +x /run.py
 
-COPY ["version", "/ctp-version"]
+#COPY ["version", "/ctp-version"]
 
-ENTRYPOINT ["/neurodocker/startup.sh", "/run.sh"]
+ENTRYPOINT "/run.py"
