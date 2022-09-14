@@ -2,7 +2,7 @@ FROM bids/freesurfer:latest
 
 COPY ["run_test.py", "/run_test.py"]
 COPY ["ml_models", "/ml_models"]
-COPY ["license.txt", "/license.txt"]
+
 
 RUN chmod +x /run_test.py
 RUN pip install joblib
