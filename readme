@@ -1,0 +1,13 @@
+
+
+sudo docker build --tag bids-freesurfer:v0.3 .
+sudo docker run -ti --rm \
+-v /home/rkoti/Desktop/projects/datasets/ds002785:/bids_dataset \
+-v /home/rkoti/Desktop/projects/datasets/ds002785/derivatives/freesurfer:/output \
+-v /home/rkoti/Desktop/projects/sw/license.txt:/license.txt \
+bids-freesurfer:v0.3 /bids_dataset /output participant --participant_label 0001 \
+--license_file "/license.txt" --ctp 'true' --skip_bids_validator
+
+
+
+sudo chmod 666 /var/run/docker.sock
