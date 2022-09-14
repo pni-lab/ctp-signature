@@ -1,6 +1,6 @@
 # ctp-signature
 This repository - in a multi-center cohort (n = 131) - aims at predicting individual's pain sensitivity using grey matter cortical thickness (gmCT) measure. The repository contains the following:
-- calculated values of gmCT using freesurfer (link to the docker file) >> see data folder,
+- calculated values of gmCT using freesurfer >> see data folder,
 - various potential confounders (phenotypes) from MRI, demography & psychometrics aspects >> see data folder,
 - dedicated machine learning models based on LASSO linear regression method >> see notebook folder - also see figure below for a flowchart,
 - results >> see output folder
@@ -22,6 +22,27 @@ RPN-signature_Study2:
 
 RPN-signature-Study3:
     Data is available upon reasonable request. 
+
+## Dockerized container
+The docker image for the ctp-signature is avaialble at: https://hub.docker.com/r/pnilab/ctp-signature.
+
+- To get started, one needs a freesurfer license.txt, that can be obtained from: https://surfer.nmr.mgh.harvard.edu/registration.html
+- pull the docker image:
+    
+    docker pull pnilab/ctp-signature:latest
+    
+- use the following command to estimate cortical thickness, and for calculating ctp-score:
+
+    sudo docker run -ti --rm \
+    -v <path to bids parent directory where datasetsats present>:/bids_dataset \
+    -v <path tp bids derivatives directory to store all output>:/output \
+    -v <path of freesurfer license.txt>:/license.txt \
+    pnilab/ctp-signature:latest /bids_dataset /output participant --participant_label 0001 \
+    --license_file "/license.txt" --ctp 'true' --skip_bids_validator
+ 
+ ## Note
+ - 
+ 
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
 |:--:| 
