@@ -9,7 +9,7 @@ This repository - in a multi-center cohort (n = 131) - aims at predicting indivi
 
 Once the repository is downloaded with the essential programming packages, the obtained results can be re-produced using the jupyter notebooks. To redo the analysis by your own, which includes calculating the cortical thickness measures, please follow the hints below:
 - use _datalad_ to acquire the multi-center datasets(T1w - MRI images) using the commands below.
-- Check out DataLad (https://handbook.datalad.org/en/latest/usecases/openneuro.html) for more on how to use this download method.
+- Check out DataLad (https://handbook.datalad.org/en/latest/usecases/openneuro.html) for more info on how to use this download method.
 
 
 RPN-signature_Study1:
