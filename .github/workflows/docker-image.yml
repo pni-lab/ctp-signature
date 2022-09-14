@@ -1,0 +1,30 @@
+name: Docker image CI for qunatifying individual pain sensitivity using brain measures.
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+  
+    name: build container
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check git repo
+      uses: actions/checkout@v3
+
+    - name: login to dockerhub
+      uses: docker/login-actions@v2
+      with:
+        username: ${{ secrets.DOCKER_USER }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+    
+    - name: Build the Docker image
+      uses: docker/build-push-action@v3
+      with:
+        push: true
+        tags: pnilab/ctp-signature:latest
