@@ -39,9 +39,9 @@ The docker image for the ctp-signature is avaialble at: https://hub.docker.com/r
     -v <path of freesurfer license.txt>:/license.txt \
     pnilab/ctp-signature:latest /bids_dataset /output participant --participant_label 0001 \
     --license_file "/license.txt" --ctp 'true' --skip_bids_validator
- ```
+    ```
  ## Note
- - 
+ - if you do not want to use --skip_bids_validator, then make sure to install the entire datasets using datalad, and not just the reference links.
  
 
 ![Component 4 (1)](https://user-images.githubusercontent.com/82961493/172667976-05202a9d-d837-491e-95fc-a8bd5639684f.jpg)
