@@ -3,8 +3,11 @@ name: Docker image CI for qunatifying individual pain sensitivity using brain me
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - '**.md'
   pull_request:
     branches: [ "main" ]
+
 
 jobs:
 
