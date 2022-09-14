@@ -1,4 +1,4 @@
-# gmCT-predictive-modelling
+# ctp-signature
 This repository - in a multi-center cohort (n = 131) - aims at predicting individual's pain sensitivity using grey matter cortical thickness (gmCT) measure. The repository contains the following:
 - calculated values of gmCT using freesurfer (link to the docker file) >> see data folder,
 - various potential confounders (phenotypes) from MRI, demography & psychometrics aspects >> see data folder,
