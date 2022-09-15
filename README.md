@@ -28,7 +28,7 @@ The docker image for the ctp-signature is avaialble at: https://hub.docker.com/r
 
 - To get started, one needs a freesurfer license.txt, that can be obtained from: https://surfer.nmr.mgh.harvard.edu/registration.html
 - pull the docker image:
-    
+    ```
     docker pull pnilab/ctp-signature:latest
     
 - use the following command to estimate cortical thickness, and for calculating ctp-score:
