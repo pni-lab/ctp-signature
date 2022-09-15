@@ -30,7 +30,7 @@ The docker image for the ctp-signature is avaialble at: https://hub.docker.com/r
 - pull the docker image:
     ```
     docker pull pnilab/ctp-signature:latest
-    
+    ```
 - use the following command to estimate cortical thickness, and for calculating ctp-score:
     ```
     sudo docker run -ti --rm \
